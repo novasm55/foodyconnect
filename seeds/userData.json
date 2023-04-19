@@ -1,0 +1,32 @@
+[{
+    "name": "Jane Doe",
+    "email": "doeJaCat@gmail.com",
+    "password": "kittykitty55",
+    "username": "doeJaCat"
+},
+{
+    "name": "John Doe",
+    "email": "doeJoCat@gmail.com",
+    "password": "jdoesupersecret",
+    "username": "johndoefashoe"
+},
+{
+    "name": "Dandy Brandy",
+    "email": "beerbratman@hotmail.com",
+    "password": "lassothrower26",
+    "username": "wheremycountrygone"
+},
+{
+    "name": "Rihanna",
+    "email": "rihanna@gmail.com",
+    "password": "chrisBrownTown",
+    "username": "thevoice"
+},
+{
+    "name": "Beyonce",
+    "email": "beyonce@gmail.com",
+    "password": "lovesRihanna",
+    "username": "hatesRihanna"
+}]
+
+
