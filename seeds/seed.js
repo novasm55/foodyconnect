@@ -18,17 +18,10 @@ const seedDatabase = async () => {
     returning: true,
   });
 
-  const food = await Comment.bulkCreate(foodData, {
+  const food = await Food.bulkCreate(foodData, {
     individualHooks: true,
     returning: true,
   });
-
-  //   for (const project of projectData) {
-  //     await Project.create({
-  //       ...project,
-  //       user_id: users[Math.floor(Math.random() * users.length)].id,
-  //     });
-  //   }
 
   process.exit(0);
 };

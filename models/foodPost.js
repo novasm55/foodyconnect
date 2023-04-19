@@ -35,7 +35,7 @@ Food.init(
       defaultValue: DataTypes.NOW,
     },
     cook_time: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.STRING,
       allowNull: false,
     },
     user_id: {
