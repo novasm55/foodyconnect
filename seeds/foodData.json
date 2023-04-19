@@ -1,0 +1,45 @@
+[{    
+"food_name": "Chicken Parmesan",    
+"cuisine": "Italian",    
+"description": "Breaded chicken smothered in marinara sauce and melted mozzarella cheese.",    
+"image": "https://example.com/chicken-parm.jpg",    
+"ingredients": "Chicken breast, bread crumbs, marinara sauce, mozzarella cheese, olive oil",    
+"date_created": "2022-01-10",    
+"cook_time": "45 minutes"  },  
+
+{   
+"food_name": "Pad Thai",    
+"cuisine": "Thai",    
+"description": "Stir-fried rice noodles with chicken, shrimp, tofu, and peanuts in a tangy sauce.",    
+"image": "https://example.com/pad-thai.jpg",   
+ "ingredients": "Rice noodles, chicken, shrimp, tofu, peanuts, bean sprouts, scallions, eggs, fish sauce, tamarind paste, palm sugar",    
+ "date_created": "2022-02-03",    
+ "cook_time": "30 minutes"  },  
+
+ {    
+"food_name": "Taco Salad",    
+ "cuisine": "Mexican",    
+ "description": "A hearty salad with seasoned ground beef, lettuce, tomatoes, cheese, and tortilla chips.",   
+  "image": "https://example.com/taco-salad.jpg",    
+  "ingredients": "Ground beef, lettuce, tomatoes, cheese, tortilla chips, salsa, sour cream",    
+  "date_created": "2022-03-22",    "cook_time": "20 minutes"  }, 
+
+  {
+    "food_name": "Chicken Curry",   
+   "cuisine": "Indian",    
+   "description": "Tender chicken in a creamy, aromatic curry sauce with rice.",    
+   "image": "https://example.com/chicken-curry.jpg",    
+   "ingredients": "Chicken breast, curry powder, coconut milk, tomatoes, onions, garlic, ginger, rice",    
+   "date_created": "2022-04-15",    
+   "cook_time": "1 hour"
+   
+   },
+   {
+    "food_name": "Salmon Teriyaki",
+    "cuisine": "Japanese",
+    "description": "Grilled salmon with a sweet and savory teriyaki glaze, served with rice and vegetables.",
+    "image": "https://example.com/salmon-teriyaki.jpg",
+    "ingredients": "Salmon fillet, soy sauce, mirin, sake, brown sugar, garlic, ginger, rice, broccoli",
+    "date_created": "2022-05-23",
+    "cook_time": "25 minutes"
+  }]
