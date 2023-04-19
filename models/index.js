@@ -1,23 +1,23 @@
-const Users = require("./Users");
-const FoodPost = require("./FoodPost");
+const User = require("./Users");
+const Food = require("./FoodPost");
 const Comment = require("./Comment");
 
-Users.hasMany(FoodPost, {
+User.hasMany(Food, {
   foreignKey: "user_id",
   onDelete: "CASCADE",
 });
 
-FoodPost.belongsTo(Users, {
+Food.belongsTo(User, {
   foreignKey: "user_id",
 });
 
-Comment.belongsTo(Users, {
+Comment.belongsTo(User, {
   foreignKey: "user_id",
 });
 
-FoodPost.hasMany(Comment, {
+Food.hasMany(Comment, {
   foreignKey: "food_id",
   onDelete: "CASCADE",
 });
 
-module.exports = { Users, FoodPost, Comment };
+module.exports = { User, Food, Comment };
