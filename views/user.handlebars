@@ -1,18 +1,22 @@
-<p>{{name}}</p>
+<h2>{{name}}</h2>
   {{#if food.length}}
 {{#each food as |foods| }}
-<div class="">
+<div class="user-food">
     <img src="" alt="">
-  <p>{{foods.food_name}}</p>
-  <p>{{foods.cuisine}}</p>
-  <p>{{foods.ingredients}}</p>
-  <p>{{format_date foods.date_created}}</p>
-  <p>{{foods.cook_time}}</p>
+        <ul class="food-items">
+            <li id="food-name">{{foods.food_name}}</li>
+            <li id="cuisine">{{foods.cuisine}}</li>
+            <li id="ingredients">{{foods.ingredients}}</li>
+            <li id="date">{{format_date foods.date_created}}</li>
+            <li id="cook-time ">{{foods.cook_time}}</li>
+        </ul>
 
 </div>
 {{/each}}
 {{else}}
-<div class=""><p>This user has no posts</p></div>
+<div class="empty-post">
+  <h3>This user has no posts</h3>
+  </div>
   {{/if}}
   
   
