@@ -38,8 +38,9 @@ router.get("/user/:id", async (req, res) => {
     });
 
     const user = projectData.get({ plain: true });
+    res.render("user", ...user);
 
-    res.json(user);
+    // res.json(user);
   } catch (err) {
     res.status(500).json(err);
   }

@@ -1,0 +1,13 @@
+<p>{{name}}</p>
+{{!-- <p>{{</p> --}}
+{{#each food as |foods| }}
+<div class="row mb-4 project">
+    <img src="" alt="">
+  <p>{{foods.food_name}}</p>
+  <p>{{foods.cuisine}}</p>
+  <p>{{foods.ingredients}}</p>
+  <p>{{format_date foods.date_created}}</p>
+  <p>{{foods.cook_time}}</p>
+
+</div>
+{{/each}}
