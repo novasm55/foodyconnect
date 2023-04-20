@@ -38,13 +38,13 @@ router.get("/user/:id", async (req, res) => {
     });
 
     const user = projectData.get({ plain: true });
-    res.render("user", ...user);
-
+    res.render("user", user);
     // res.json(user);
   } catch (err) {
     res.status(500).json(err);
   }
 });
+
 // // Use withAuth middleware to prevent access to route
 // router.get('/profile', withAuth, async (req, res) => {
 //   try {
