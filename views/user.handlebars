@@ -1,7 +1,7 @@
 <p>{{name}}</p>
-{{!-- <p>{{</p> --}}
+  {{#if food.length}}
 {{#each food as |foods| }}
-<div class="row mb-4 project">
+<div class="">
     <img src="" alt="">
   <p>{{foods.food_name}}</p>
   <p>{{foods.cuisine}}</p>
@@ -11,3 +11,7 @@
 
 </div>
 {{/each}}
+{{else}}
+<div class=""><p>This user has no posts</p></div>
+  {{/if}}
+  
