@@ -18,7 +18,10 @@ router.get("/", async (req, res) => {
 
     const foods = foodData.map((f) => f.get({ plain: true }));
 
-    res.json(foods);
+    res.render("homepage", {
+      foods,
+      logged_in: req.session.logged_in,
+    });
   } catch (err) {
     res.status(500).json(err);
   }
