@@ -1,7 +1,8 @@
 const router = require('express').Router();
 const { Food } = require('../../models');
+const withAuth = require('../../utils/auth')
 
-router.post('/', async (req, res) => {
+router.post('/',withAuth, async (req, res) => {
   try {
     const newFood = await Food.create({
       ...req.body,
@@ -14,12 +15,12 @@ router.post('/', async (req, res) => {
   }
 });
 
-router.delete('/:id', async (req, res) => {
+router.delete('/:id',withAuth, async (req, res) => {
   try {
     const newFood = await Food.destroy({
       where: {
         id: req.params.id,
-        user_id: req.session.user_id,
+        //user_id: req.session.user_id,
       },
     });
 
@@ -30,6 +31,7 @@ router.delete('/:id', async (req, res) => {
 
     res.status(200).json(newFood);
   } catch (err) {
+    console.log(err)
     res.status(500).json(err);
   }
 });
