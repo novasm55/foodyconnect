@@ -1,5 +1,6 @@
 const router = require("express").Router();
 const { User, Comment, Food } = require("../models");
+const withAuth = require("../utils/auth");
 
 router.get("/", async (req, res) => {
   try {
@@ -40,6 +41,24 @@ router.get("/user/:id", async (req, res) => {
     const user = projectData.get({ plain: true });
     res.render("user", user);
     // res.json(user);
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
+router.get("/profile", withAuth, async (req, res) => {
+  try {
+    const userData = await User.findByPk(req.session.user_id, {
+      attributes: { exclude: ["password"] },
+      include: [{ model: Project }],
+    });
+
+    const user = userData.get({ plain: true });
+
+    res.render("profile", {
+      ...user,
+      logged_in: true,
+    });
   } catch (err) {
     res.status(500).json(err);
   }
