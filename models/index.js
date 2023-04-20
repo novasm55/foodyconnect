@@ -11,6 +11,11 @@ Food.belongsTo(User, {
   foreignKey: "user_id",
 });
 
+User.hasMany(Comment, {
+  foreignKey: "user_id",
+  onDelete: "CASCADE",
+});
+
 Comment.belongsTo(User, {
   foreignKey: "user_id",
 });
@@ -18,6 +23,10 @@ Comment.belongsTo(User, {
 Food.hasMany(Comment, {
   foreignKey: "food_id",
   onDelete: "CASCADE",
+});
+
+Comment.belongsTo(Food, {
+  foreignKey: "food_id",
 });
 
 module.exports = { User, Food, Comment };
