@@ -2,7 +2,10 @@
 <div class="project-box">
   <div class="box-header">
     <h2>{{food.food_name}}</h2>
-    <p>{{food.user.name}}</p>
+     <div id={{food.user_id}} class="username">
+      <p>{{food.user.name}}</p>
+      <p>{{food.user.username}}</p>
+    </div>
     <p>{{food.cuisine}}</p>
   </div>
   <div class="box-description">
