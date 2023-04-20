@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FoodyConnect</title>
+    {{!-- <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" /> --}}
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#" class="logo">FoodyConnect</a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Proile</a></li>
+           {{#if logged_in}}
+           <li></li>
+       <li><a href="/profile">profile</a></li>
+        <li><button class="no-button" id="logout">logout</button></li>
+        {{else}}
+        <li><a href="/login">login</a></li>
+        {{/if}}
+
+        </ul>
+      </nav>
+    </header>
+  <main class="body-container">
+      {{{ body }}}
+    </main>
+    <footer>
+    </footer>
+  </div>
+  {{#if logged_in}}
+  <script src="/js/logout.js"></script>
+  {{/if}}
+</body>
+
+</html>
