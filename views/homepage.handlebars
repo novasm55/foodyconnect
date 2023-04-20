@@ -1,12 +1,15 @@
 {{#each foods as |food| }}
-<div class="row mb-4 project">
-    <img src="" alt="">
-  <p>{{food.food_name}}</p>
-  <p>{{food.cuisine}}</p>
-  <p>{{food.ingredients}}</p>
-  <p>{{format_date food.date_created}}</p>
-  <p>{{food.cook_time}}</p>
-  <p>{{food.user.name}}</p>
-  <p>{{food.user.username}}</p>
+<div class="project-box">
+  <div class="box-header">
+    <h2>{{food.food_name}}</h2>
+    <p>{{food.user.name}}</p>
+    <p>{{food.cuisine}}</p>
+  </div>
+  <div class="box-description">
+    <p>{{food.description}}</p>
+    <p>{{food.ingredients}}</p>
+    <p>{{food.cook_time}}</p>
+    <p>{{format_date food.date_created}}</p>
+  </div>
 </div>
 {{/each}}
