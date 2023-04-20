@@ -13,16 +13,22 @@ const seedDatabase = async () => {
     returning: true,
   });
 
-  const comments = await Comment.bulkCreate(commentData, {
-    individualHooks: true,
-    returning: true,
-  });
+  const foods = [];
+  for (const food of foodData) {
+    const createdFood = await Food.create({
+      ...food,
+      user_id: users[Math.floor(Math.random() * users.length)].id,
+    });
+    foods.push(createdFood);
+  }
 
-  const food = await Food.bulkCreate(foodData, {
-    individualHooks: true,
-    returning: true,
-  });
-
+  for (const comment of commentData) {
+    await Comment.create({
+      ...comment,
+      user_id: users[Math.floor(Math.random() * users.length)].id,
+      food_id: foods[Math.floor(Math.random() * foods.length)].id,
+    });
+  }
   process.exit(0);
 };
 
