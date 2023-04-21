@@ -40,6 +40,7 @@ Technologies used:
 * SQL: for implementing relational databases
 * Bcrypt: for hashing passwords
 * Sequelize: allows developers to store session data in a relational database, an ORM library for Node.js.
+* Cloudinary: used to store media and manage images for webpage. 
 * .env: to store sensitive information like API keys, database credentials and other parameters
 * Heroku: used for deploying, hosting, and managing web applications and services 
 
