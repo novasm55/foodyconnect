@@ -1,0 +1,73 @@
+/* for all pages */
+:root{
+    --offwhite:#F9F5EB;
+    --greywhite:#E4DCCF;
+    --redorange:#EA5455;
+    --navy:#002B5B;
+}
+
+/* main page css */
+
+header{
+    background-color: var(--greywhite);
+    height: 100px;
+    padding:1px;
+}
+
+body{
+    background-color: var(--offwhite);
+}
+a{
+    text-decoration: none;
+    color:var(--navy);
+    text-align: end;
+}
+
+.logo{
+    margin-left:500px;
+    margin-top: 50px;
+   font-size: 50px; 
+   padding:20px;
+}
+ul{
+    text-decoration: none; 
+    float: right;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+/* this will be the main handlebasr css */
+
+.project-box{
+    background-color: var(--greywhite);
+   margin: 10px;
+   /* padding: 10px; */
+   display: flex;
+}
+.box-header{
+    margin:10px;
+    justify-content: center;
+}
+h2{
+    background-color: var(--navy);
+    color:var(--offwhite);
+    height:50px;
+    width: 200px;
+    text-align: center;
+    margin-top:0 ;
+}
+.box-description{
+   margin-left: 400px;
+   margin-top: 50px;
+   justify-content: center;
+   text-align: center;
+}
+.username{
+    display: flex;
+    justify-content: space-evenly;
+}
+
