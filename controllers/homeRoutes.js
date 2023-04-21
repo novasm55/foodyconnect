@@ -2,6 +2,38 @@ const router = require("express").Router();
 const { User, Comment, Food } = require("../models");
 const withAuth = require("../utils/auth");
 
+
+
+
+// GET route for search
+router.get('/search', async (req, res) => {
+  const { username } = req.query;
+
+  if (!username) {
+    return res.status(400).json({ error: 'Please provide a search query' });
+  }
+
+  try { //make function called searchUsers
+    //
+    const searchResults = await User.findOne({
+      where : {
+        username : username
+      },
+      
+        include: [
+          {
+            model: Food,
+          },
+        ],
+    })
+    res.json(searchResults);
+  } catch (error) {
+    res.status(500).json({ error: 'An error occurred while searching users' });
+  }
+});
+
+
+
 router.get("/", async (req, res) => {
   try {
     const foodData = await Food.findAll({
