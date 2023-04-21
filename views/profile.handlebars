@@ -29,11 +29,9 @@
         <label for="post-desc">Description:</label>
         <input class="form-input" type="text" id="post-desc" name="post-desc" />
       </div>
-      <div class="form-group">
-        <button id='create' type="submit" class="btn btn-primary">Create</button>
-      </div>
     </form>
      <button id="upload_widget" class="cloudinary-button">Upload Picture</button>
+     <button id='create' type="submit" class="btn btn-primary">Create</button>
   </div>
 
   {{#if food.length}}
@@ -44,7 +42,7 @@
 <div class="project-box">
   <div class="box-header">
     <h2>{{foods.food_name}}</h2>
-    <img src="{{foods.image}}" alt="">
+    <img src={{foods.image}} alt="">
      <div id={{foods.user_id}} class="username">
       <p>{{foods.user.name}}</p>
       <p>{{foods.user.username}}</p>
