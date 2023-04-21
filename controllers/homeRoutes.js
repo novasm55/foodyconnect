@@ -30,7 +30,10 @@ router.get("/", async (req, res) => {
 
 router.get("/user/:id", async (req, res) => {
   try {
-    const projectData = await User.findByPk(req.params.id, {
+    const userData = await User.findOne(req.params.id, {
+      where: {
+        username: username,
+      },
       include: [
         {
           model: Food,
@@ -38,9 +41,7 @@ router.get("/user/:id", async (req, res) => {
       ],
     });
 
-    const user = projectData.get({ plain: true });
-    res.render("user", user);
-    // res.json(user);
+    const user = userData.get({ plain: true });
   } catch (err) {
     res.status(500).json(err);
   }
@@ -66,7 +67,6 @@ router.get("/profile", withAuth, async (req, res) => {
 });
 
 router.get("/login", (req, res) => {
-  // If the user is already logged in, redirect the request to another route
   if (req.session.logged_in) {
     res.redirect("/profile");
     return;

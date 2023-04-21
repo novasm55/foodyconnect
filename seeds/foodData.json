@@ -22,7 +22,8 @@
  "description": "A hearty salad with seasoned ground beef, lettuce, tomatoes, cheese, and tortilla chips.",   
   "image": "https://www.spendwithpennies.com/wp-content/uploads/2022/07/Taco-Salad-2-SpendWithPennies-4.jpg",    
   "ingredients": "Ground beef, lettuce, tomatoes, cheese, tortilla chips, salsa, sour cream",    
-  "date_created": "2022-03-22",    "cook_time": "20 minutes"  }, 
+  "date_created": "2022-03-22",    
+  "cook_time": "20 minutes"  }, 
 
   {
     "food_name": "Chicken Curry",   
