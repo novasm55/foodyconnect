@@ -2,18 +2,24 @@
 <div class="project-box">
   <div class="box-header">
     <h2>{{food.food_name}}</h2>
+feature/cloudinary
     <img src={{food.image}} alt="">
+
+    <p>{{food.cuisine}}</p>
+main
      <div id={{food.user_id}} class="username">
       <p>{{food.user.name}}</p>
       <p>{{food.user.username}}</p>
     </div>
-    <p>{{food.cuisine}}</p>
+    {{!-- photo goes here  --}}
+    <p>{{format_date food.date_created}}</p>
+    
   </div>
   <div class="box-description">
     <p>{{food.description}}</p>
     <p>{{food.ingredients}}</p>
     <p>{{food.cook_time}}</p>
-    <p>{{format_date food.date_created}}</p>
+    {{!-- <p>{{format_date food.date_created}}</p> --}}
   </div>
 </div>
 {{/each}}
