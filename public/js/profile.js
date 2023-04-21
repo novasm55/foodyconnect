@@ -1,3 +1,25 @@
+let image = "";
+
+var myWidget = cloudinary.createUploadWidget(
+  {
+    cloudName: "dujnmblmh",
+    uploadPreset: "foodyconnect",
+  },
+  (error, result) => {
+    if (!error && result && result.event === "success") {
+      image = result.info.thumbnail_url;
+    }
+  }
+);
+
+document.getElementById("upload_widget").addEventListener(
+  "click",
+  function () {
+    myWidget.open();
+  },
+  false
+);
+
 const newFormHandler = async (event) => {
   console.log(2);
   event.preventDefault();
@@ -14,6 +36,7 @@ const newFormHandler = async (event) => {
       body: JSON.stringify({
         food_name,
         cuisine,
+        image,
         description,
         ingredients,
         cook_time,
@@ -32,6 +55,8 @@ const newFormHandler = async (event) => {
   }
 };
 
+document.querySelector("#create").addEventListener("click", newFormHandler);
+
 const delButtonHandler = async (event) => {
   if (event.target.hasAttribute("data-id")) {
     const id = event.target.getAttribute("data-id");
@@ -48,29 +73,20 @@ const delButtonHandler = async (event) => {
   }
 };
 
-console.log("53");
-document.querySelector("#create").addEventListener("click", newFormHandler);
-
 // var myWidget = cloudinary.createUploadWidget(
 //   {
 //     cloudName: "dujnmblmh",
-//     uploadPreset: "eihxr5yn",
+//     uploadPreset: "foodyconnect",
 //   },
 //   (error, result) => {
 //     if (!error && result && result.event === "success") {
 //       console.log("Done! Here is the image info: ", result.info);
+//       const image = result.info.thumbnail_url;
+//       console.log(image);
 //     }
 //   }
 // );
 
-// // document
-// //   .querySelector(".project-list")
-// //   .addEventListener("click", delButtonHandler);
-
-// document.getElementById("upload_widget").addEventListener(
-//   "click",
-//   function () {
-//     myWidget.open();
-//   },
-//   false
-// );
+// document
+//   .querySelector(".project-list")
+//   .addEventListener("click", delButtonHandler);
