@@ -12,11 +12,9 @@
       <nav>
         <a href="#" class="logo">FoodyConnect</a>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Proile</a></li>
+          <li><a href="/" class="home">Home</a></li>
+          <li><a href="/profile" class="profile">Profile</a></li>
            {{#if logged_in}}
-           <li></li>
-       <li><a href="/profile">profile</a></li>
         <li><button class="no-button" id="logout">logout</button></li>
         {{else}}
         <li><a href="/login">login</a></li>
@@ -37,3 +35,4 @@
 </body>
 
 </html>
+

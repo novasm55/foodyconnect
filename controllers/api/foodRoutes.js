@@ -11,6 +11,7 @@ router.post("/", withAuth, async (req, res) => {
 
     res.status(200).json(newFood);
   } catch (err) {
+    console.log(req.body);
     res.status(400).json(err);
   }
 });

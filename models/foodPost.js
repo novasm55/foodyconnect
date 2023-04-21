@@ -24,6 +24,7 @@ Food.init(
     },
     image: {
       type: DataTypes.STRING,
+      allowNull: true,
     },
     ingredients: {
       type: DataTypes.STRING,

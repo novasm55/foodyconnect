@@ -6,43 +6,64 @@
 
 <div class="row mt-4">
   <div class="col-md-6">
-    <h3>Create a New Project:</h3>
+    <h3>Create a New Post:</h3>
 
-    <form class="form new-project-form">
+    <form class="form">
       <div class="form-group">
-        <label for="project-name">project name:</label>
-        <input class="form-input" type="text" id="project-name" name="project-name" />
+        <label for="post-name">Food name:</label>
+        <input class="form-input" type="text" id="post-name" name="post-name" />
       </div>
       <div class="form-group">
-        <label for="project-funding">needed funding ($):</label>
-        <input class="form-input" type="number" id="project-funding" name="project-funding" />
+        <label for="post-cuisine">Cuisine:</label>
+        <input class="form-input" type="text" id="post-cuisine" name="post-cuisine" />
       </div>
       <div class="form-group">
-        <label for="project-desc">description:</label>
-        <textarea class="form-input" id="project-desc" name="project-desc"></textarea>
+        <label for="post-ingrediants">Ingredients:</label>
+        <input class="form-input" type="text" id="post-ingrediants" name="post-ingrediants" />
       </div>
       <div class="form-group">
-        <button type="submit" class="btn btn-primary">Create</button>
+        <label for="post-cooktime">Cook Time:</label>
+        <input class="form-input" type="text" id="post-cooktime" name="post-cooktime" />
       </div>
+      <div class="form-group">
+        <label for="post-desc">Description:</label>
+        <input class="form-input" type="text" id="post-desc" name="post-desc" />
+      </div>
+      <div class="form-group">
+        <button id='create' type="submit" class="btn btn-primary">Create</button>
+      </div>
+      <button id="upload_widget" class="cloudinary-button">Upload files</button>
+      
     </form>
   </div>
 
-  {{#if projects.length}}
+  {{#if food.length}}
   <div class="col-md-6 project-list">
-    <h3>Current Projects:</h3>
+    <h3>Posts:</h3>
 
-    {{#each projects as |project|}}
-    <div class="row mb-2">
-      <div class="col-md-8">
-        <h4><a href="/project/{{project.id}}">{{project.name}}</a></h4>
-      </div>
-      <div class="col-md-4">
-        <button class="btn btn-sm btn-danger" data-id="{{project.id}}">DELETE</button>
-      </div>
+    {{#each food as |foods| }}
+<div class="project-box">
+  <div class="box-header">
+    <h2>{{foods.food_name}}</h2>
+     <div id={{foods.user_id}} class="username">
+      <p>{{foods.user.name}}</p>
+      <p>{{foods.user.username}}</p>
     </div>
-    {{/each}}
+    <p>{{food.cuisine}}</p>
+  </div>
+  <div class="box-description">
+    <p>{{foods.description}}</p>
+    <p>{{foods.ingredients}}</p>
+    <p>{{foods.cook_time}}</p>
+    <p>{{format_date foods.date_created}}</p>
+  </div>
+</div>
+{{/each}}
   </div>
   {{/if}}
 </div>
 
 <script src="./js/profile.js"></script>
+{{!-- <script src="https://upload-widget.cloudinary.com/global/all.js" type="text/javascript"></script>  
+<script type="text/javascript"></script> --}}
+
