@@ -2,37 +2,31 @@ const router = require("express").Router();
 const { User, Comment, Food } = require("../models");
 const withAuth = require("../utils/auth");
 
-
-
-
 // GET route for search
-router.get('/search', async (req, res) => {
+router.get("/search", async (req, res) => {
   const { username } = req.query;
 
   if (!username) {
-    return res.status(400).json({ error: 'Please provide a search query' });
+    return res.status(400).json({ error: "Please provide a search query" });
   }
 
-  try { //make function called searchUsers
-    //
+  try {
     const searchResults = await User.findOne({
-      where : {
-        username : username
+      where: {
+        username: username,
       },
-      
-        include: [
-          {
-            model: Food,
-          },
-        ],
-    })
+
+      include: [
+        {
+          model: Food,
+        },
+      ],
+    });
     res.json(searchResults);
   } catch (error) {
-    res.status(500).json({ error: 'An error occurred while searching users' });
+    res.status(500).json({ error: "An error occurred while searching users" });
   }
 });
-
-
 
 router.get("/", async (req, res) => {
   try {
@@ -62,19 +56,16 @@ router.get("/", async (req, res) => {
 
 router.get("/user/:id", async (req, res) => {
   try {
-    const userData = await User.findOne(req.params.id, {
-      where: {
-        username: username,
-      },
+    const userData = await User.findByPk(req.params.id, {
       include: [
         {
           model: Food,
         },
       ],
     });
-
-    const user = userData.get({ plain: true });
+    res.json(userData);
   } catch (err) {
+    console.log(err);
     res.status(500).json(err);
   }
 });
