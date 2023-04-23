@@ -72,21 +72,3 @@ const delButtonHandler = async (event) => {
     }
   }
 };
-
-// var myWidget = cloudinary.createUploadWidget(
-//   {
-//     cloudName: "dujnmblmh",
-//     uploadPreset: "foodyconnect",
-//   },
-//   (error, result) => {
-//     if (!error && result && result.event === "success") {
-//       console.log("Done! Here is the image info: ", result.info);
-//       const image = result.info.thumbnail_url;
-//       console.log(image);
-//     }
-//   }
-// );
-
-// document
-//   .querySelector(".project-list")
-//   .addEventListener("click", delButtonHandler);
