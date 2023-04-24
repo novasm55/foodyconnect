@@ -68,7 +68,9 @@ const delButtonHandler = async (event) => {
     if (response.ok) {
       document.location.replace("/food");
     } else {
+      //console.log(error)
       alert("Failed to delete project");
     }
   }
 };
+document.querySelector(".project-box").addEventListener("click", delButtonHandler );
