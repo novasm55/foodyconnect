@@ -43,8 +43,8 @@
     "ingredients": "Salmon fillet, soy sauce, mirin, sake, brown sugar, garlic, ginger, rice, broccoli",
     "date_created": "2022-05-23",
     "cook_time": "25 minutes"
-  },
-  {
+    },
+    {
     "food_name": "Tonkatsu",
     "cuisine": "Japanese",
     "description": "Breaded and deep-fried pork cutlet, served with shredded cabbage, rice, and tonkatsu sauce.",
@@ -53,7 +53,16 @@
     "date_created": "2022-06-08",
     "cook_time": "30 minutes"
     },
-  {
+    {
+    "food_name": "Pad Thai",
+    "cuisine": "Thai",
+    "description": "Stir-fried rice noodles with shrimp, tofu, bean sprouts, and eggs, flavored with tamarind sauce and garnished with peanuts and lime.",
+    "image": "https://www.eatingthaifood.com/wp-content/uploads/2018/09/thai-pad-thai-recipe-2.jpg",
+    "ingredients": "Rice noodles, shrimp, tofu, bean sprouts, eggs, tamarind sauce, peanuts, lime",
+    "date_created": "2022-07-12",
+    "cook_time": "40 minutes"
+    },
+    {
     "food_name": "Beef Bulgogi",
     "cuisine": "Korean",
     "description": "Marinated and grilled slices of beef, served with rice and vegetables.",
@@ -61,8 +70,8 @@
     "ingredients": "Beef sirloin, soy sauce, sugar, sesame oil, garlic, scallions, rice, carrots, spinach",
     "date_created": "2022-08-17",
     "cook_time": "20 minutes (plus marinating time)"
-    },  
-  {
+    },
+    {
     "food_name": "Pesto Pasta",
     "cuisine": "Italian",
     "description": "Pasta tossed with fresh basil pesto, cherry tomatoes, and Parmesan cheese.",
