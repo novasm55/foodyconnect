@@ -48,8 +48,10 @@ Technologies used:
 
 How to Use:
 
+Foody Connect is a simple application that allows you to connect with different users to find different meals for you to make on a daily basis. Simply create a username and password by signing up with your email address and your culinary journey begins immediately. By creating an account, you are able to post different meals with photos on a regular basis. You can also browse to see different options for your daily cooking needs so you can apply more time to cooking rather than thinking about what to make. You may view people's profiles and see the different meals they have posted along with comments from other users who have cooked the meal and given their feedback. If you are not satisfied with a post you have created you may also delete them from your account. 
 
 
 ## Deployment
 
 Heroku link: 
+Github link: 
