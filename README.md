@@ -13,7 +13,7 @@ In addition to sharing your own culinary creations, you can also engage with oth
 
 Whether you're a seasoned home cook or just starting your culinary journey, Foody Connect is the perfect place to share your love for food, connect with fellow foodies, and get inspired to create delicious meals for yourself and your loved ones. 
 
-![Click for Preview](foodyconnect/images/Foody-ConnectScreenshot.jpg)
+![Foody-Connect Screenshot](https://user-images.githubusercontent.com/126382072/234078772-e99127ba-277f-4f74-831f-96b7ba2b7b69.jpg)
 
 ## Installation
 
