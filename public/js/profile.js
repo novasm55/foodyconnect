@@ -66,7 +66,7 @@ const delButtonHandler = async (event) => {
     });
 
     if (response.ok) {
-      document.location.replace("/food");
+      document.location.replace("/profile");
     } else {
       //console.log(error)
       alert("Failed to delete project");
