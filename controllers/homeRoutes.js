@@ -42,7 +42,21 @@ router.get("/", async (req, res) => {
       ],
     });
 
-    const foods = foodData.map((f) => f.get({ plain: true }));
+    const foods = await Promise.all(
+      foodData.map(async (f) => {
+        const comments = f.comments;
+        const users = await Promise.all(
+          comments.map((c) =>
+            User.findByPk(c.user_id, { attributes: ["username"] })
+          )
+        );
+        const commentsWithUsernames = comments.map((c, i) => ({
+          ...c.toJSON(),
+          username: users[i].username,
+        }));
+        return { ...f.toJSON(), comments: commentsWithUsernames };
+      })
+    );
 
     res.render("homepage", {
       foods,
