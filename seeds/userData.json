@@ -23,10 +23,102 @@
     "username": "thevoice"
 },
 {
-    "name": "Beyonce",
-    "email": "beyonce@gmail.com",
+    "name": "Denzel Washington",
+    "email": "denzel@gmail.com",
     "password": "password123",
-    "username": "hatesRihanna"
+    "username": "manonfire"
+},
+{
+    "name": "Adrian Kempe",
+    "email": "adriankempe@gmail.com",
+    "password": "password123",
+    "username": "thejuice9"
+},
+{
+    "name": "Ted Lasso",
+    "email": "teddyboy@gmail.com",
+    "password": "password123",
+    "username": "ledtasso"
+},
+{
+    "name": "Anthony Soprano",
+    "email": "soprano@gmail.com",
+    "password": "password123",
+    "username": "princeoftide"
+},
+{
+    "name": "John Snow",
+    "email": "jsnow@gmail.com",
+    "password": "password123",
+    "username": "kinginthenorth"
+},
+{
+    "name": "Walter White",
+    "email": "w.white@gmail.com",
+    "password": "password123",
+    "username": "heisenbergblue"
+},
+{
+    "name": "Will Smith",
+    "email": "bigwilly@gmail.com",
+    "password": "password123",
+    "username": "thefreshprince"
+},
+{
+    "name": "Leonardo Dicaprio",
+    "email": "leodicaprio@gmail.com",
+    "password": "password123",
+    "username": "inception223"
+},
+{
+    "name": "Kobe Bryant",
+    "email": "kb24@gmail.com",
+    "password": "password123",
+    "username": "blackmamba24"
+},
+{
+    "name": "Jermaine Cole",
+    "email": "j.cole@gmail.com",
+    "password": "password123",
+    "username": "coleworld28"
+},
+{
+    "name": "Dana White",
+    "email": "dwhite@gmail.com",
+    "password": "password123",
+    "username": "ufclover"
+},
+{
+    "name": "Elon Musk",
+    "email": "elon@gmail.com",
+    "password": "password123",
+    "username": "twitterman23"
+},
+{
+    "name": "Michael Jordan",
+    "email": "mjj23@gmail.com",
+    "password": "password123",
+    "username": "godofair2345"
+},
+{
+    "name": "Davante Adams",
+    "email": "davante@gmail.com",
+    "password": "password123",
+    "username": "taeadams17"
+},
+{
+    "name": "Marshall Mathers",
+    "email": "eminem@gmail.com",
+    "password": "password123",
+    "username": "therealslimshady"
+},
+{
+    "name": "Taylor Swift",
+    "email": "swiftly@gmail.com",
+    "password": "password123",
+    "username": "taytay"
 }]
+
+
 
 
