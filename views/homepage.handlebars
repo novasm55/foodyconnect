@@ -17,5 +17,16 @@
     <p>{{food.ingredients}}</p>
     <p>{{food.cook_time}}</p>
   </div>
+    {{#if comments.length}}
+  {{#each comments as |comment| }}
+   <div class="comment-section">
+    <p>{{comment.username}}</p>
+    <p>{{comment.comment}}</p>
+    
+  </div>
+  {{/each}}
+</div>
+{{/if}}
+  
 </div>
 {{/each}}
