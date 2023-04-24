@@ -48,7 +48,7 @@
     "food_name": "Tonkatsu",
     "cuisine": "Japanese",
     "description": "Breaded and deep-fried pork cutlet, served with shredded cabbage, rice, and tonkatsu sauce.",
-    "image": "https://www.japanesecooking101.com/wp-content/uploads/2012/02/tonkatsu-recipe.jpg",
+    "image": "https://japan.recipetineats.com/wp-content/uploads/2017/09/Tonkatsu_0590.jpg",
     "ingredients": "Pork cutlet, panko breadcrumbs, flour, egg, cabbage, rice, tonkatsu sauce",
     "date_created": "2022-06-08",
     "cook_time": "30 minutes"
@@ -57,7 +57,7 @@
     "food_name": "Pad Thai",
     "cuisine": "Thai",
     "description": "Stir-fried rice noodles with shrimp, tofu, bean sprouts, and eggs, flavored with tamarind sauce and garnished with peanuts and lime.",
-    "image": "https://www.eatingthaifood.com/wp-content/uploads/2018/09/thai-pad-thai-recipe-2.jpg",
+    "image": "https://www.recipetineats.com/wp-content/uploads/2020/01/Chicken-Pad-Thai_9-SQ.jpg",
     "ingredients": "Rice noodles, shrimp, tofu, bean sprouts, eggs, tamarind sauce, peanuts, lime",
     "date_created": "2022-07-12",
     "cook_time": "40 minutes"
@@ -66,7 +66,7 @@
     "food_name": "Beef Bulgogi",
     "cuisine": "Korean",
     "description": "Marinated and grilled slices of beef, served with rice and vegetables.",
-    "image": "https://www.maangchi.com/wp-content/uploads/2019/10/IMG_7573.jpg",
+    "image": "https://thestayathomechef.com/wp-content/uploads/2021/02/Korean-Beef-Bulgogi-4.jpg",
     "ingredients": "Beef sirloin, soy sauce, sugar, sesame oil, garlic, scallions, rice, carrots, spinach",
     "date_created": "2022-08-17",
     "cook_time": "20 minutes (plus marinating time)"
@@ -75,7 +75,7 @@
     "food_name": "Pesto Pasta",
     "cuisine": "Italian",
     "description": "Pasta tossed with fresh basil pesto, cherry tomatoes, and Parmesan cheese.",
-    "image": "https://www.foodiecrush.com/wp-content/uploads/2017/05/Pesto-Pasta-foodiecrush.com-017.jpg",
+    "image": "https://recipetineats.com/wp-content/uploads/2019/02/Pesto-Pasta_3.jpg",
     "ingredients": "Pasta, basil, pine nuts, garlic, Parmesan cheese, olive oil, cherry tomatoes",
     "date_created": "2022-09-21",
     "cook_time": "15 minutes"
@@ -84,7 +84,7 @@
     "food_name": "Chicken Tikka Masala",
     "cuisine": "Indian",
     "description": "Grilled chicken in a creamy tomato sauce, served with rice and naan bread.",
-    "image": "https://www.savorybitesrecipes.com/wp-content/uploads/2019/07/chicken-tikka-masala-11.jpg",
+    "image": "https://www.seriouseats.com/thmb/DbQHUK2yNCALBnZE-H1M2AKLkok=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-tikka-masala-for-the-grill-recipe-hero-2_1-cb493f49e30140efbffec162d5f2d1d7.JPG",
     "ingredients": "Chicken breast, yogurt, garam masala, ginger, garlic, tomato puree, heavy cream, rice, naan bread",
     "date_created": "2022-10-25",
     "cook_time": "45 minutes"
@@ -93,7 +93,7 @@
       "food_name": "Chicken Parmesan",
       "cuisine": "Italian-American",
       "description": "Breaded and fried chicken breast topped with tomato sauce and melted mozzarella cheese, served over spaghetti.",
-      "image": "https://www.saltandlavender.com/wp-content/uploads/2020/05/chicken-parmesan-recipe-1.jpg",
+      "image": "https://thecozycook.com/wp-content/uploads/2022/08/Chicken-Parmesan-Recipe-f-500x500.jpg",
       "ingredients": "Chicken breast, breadcrumbs, eggs, tomato sauce, mozzarella cheese, spaghetti",
       "date_created": "2023-02-13",
       "cook_time": "45 minutes"
@@ -102,7 +102,7 @@
       "food_name": "Chimichangas",
       "cuisine": "Mexican-American",
       "description": "Deep-fried burritos filled with seasoned beef or chicken, beans, cheese, and salsa.",
-      "image": "https://www.simplyrecipes.com/thmb/5Jm1A6Vfgdu6xPmtnyD_6wq3RKc=/2000x1333/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2007__10__chimichanga-horiz-a-1600-1d94c1e54ba24db7a186008150d28c43.jpg",
+      "image": "https://www.allrecipes.com/thmb/StNyN54GO7wR7RwqG2Nc5ZqIjps=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/3552461-95972a745b4942afa4955d96c44eff17.jpg",
       "ingredients": "Flour tortillas, ground beef or chicken, refried beans, cheese, salsa",
       "date_created": "2023-02-28",
       "cook_time": "30 minutes"
@@ -120,7 +120,7 @@
       "food_name": "Shakshuka",
       "cuisine": "Middle Eastern",
       "description": "Eggs poached in a spicy tomato sauce with peppers and onions.",
-      "image": "https://www.acouplecooks.com/wp-content/uploads/2019/09/Shakshuka-003.jpg",
+      "image": "https://feelgoodfoodie.net/wp-content/uploads/2018/10/Shakshuka-09.jpg",
       "ingredients": "Tomatoes, bell peppers, onions, garlic, eggs, cumin, paprika",
       "date_created": "2023-03-28",
       "cook_time": "30 minutes"
@@ -129,7 +129,7 @@
       "food_name": "Ramen",
       "cuisine": "Japanese",
       "description": "Noodles in a savory broth, typically with sliced pork, soft-boiled eggs, and various toppings.",
-      "image": "https://www.acouplecooks.com/wp-content/uploads/2021/03/Ramen-002.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Shoyu_ramen%2C_at_Kasukabe_Station_%282014.05.05%29_1.jpg/640px-Shoyu_ramen%2C_at_Kasukabe_Station_%282014.05.05%29_1.jpg",
       "ingredients": "Ramen noodles, pork belly, eggs, green onions, mushrooms, seaweed",
       "date_created": "2023-04-11",
       "cook_time": "1 hour"
@@ -138,7 +138,7 @@
         "food_name": "Bibimbap",
         "cuisine": "Korean",
         "description": "Rice bowl topped with sautéed vegetables, beef, and a fried egg, served with spicy gochujang sauce.",
-        "image": "https://www.koreanbapsang.com/wp-content/uploads/2019/01/Bibimbap-1.jpg",
+        "image": "https://recipetineats.com/wp-content/uploads/2019/05/Bibimbap_3.jpg",
         "ingredients": "Rice, beef, carrots, spinach, bean sprouts, mushrooms, zucchini, egg, gochujang sauce",
         "date_created": "2023-06-19",
         "cook_time": "45 minutes"
@@ -147,7 +147,7 @@
         "food_name": "Quiche Lorraine",
         "cuisine": "French",
         "description": "Savory custard tart filled with bacon and cheese, baked in a buttery crust.",
-        "image": "https://www.inspiredtaste.net/wp-content/uploads/2019/03/Quiche-Lorraine-Recipe-2-1200.jpg",
+        "image": "https://static01.nyt.com/images/2018/01/16/dining/16COOKING-QUICHELORRAINE2/16COOKING-QUICHELORRAINE2-articleLarge.jpg",
         "ingredients": "Pie crust, bacon, eggs, cream, Gruyere cheese, nutmeg",
         "date_created": "2023-07-03",
         "cook_time": "1 hour"
@@ -156,7 +156,7 @@
         "food_name": "Moussaka",
         "cuisine": "Greek",
         "description": "Baked casserole with layers of eggplant, ground lamb, and béchamel sauce.",
-        "image": "https://www.inspiredtaste.net/wp-content/uploads/2019/03/Moussaka-Recipe-1-1200.jpg",
+        "image": "https://ruhlman.com/wp-content/uploads/2022/05/IMG_2408-scaled.jpeg",
         "ingredients": "Eggplant, ground lamb, onion, garlic, tomatoes, cinnamon, nutmeg, flour, milk, butter",
         "date_created": "2023-07-17",
         "cook_time": "2 hours"
@@ -165,7 +165,7 @@
         "food_name": "Shrimp and Grits",
         "cuisine": "Southern",
         "description": "Sautéed shrimp in a creamy sauce served over cheesy grits.",
-        "image": "https://www.acouplecooks.com/wp-content/uploads/2019/02/Shrimp-and-Grits-002.jpg",
+        "image": "https://www.simplyrecipes.com/thmb/ph0RiZJ_MQeQ9gJQJB3S7da7510=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2013__06__shrimp-grits-horiz-a-1200-f2fa3352060b4caba97aecee8f1af481.jpg",
         "ingredients": "Shrimp, butter, flour, milk, cheese, grits, green onions",
         "date_created": "2023-08-07",
         "cook_time": "30 minutes"
@@ -174,7 +174,7 @@
         "food_name": "Katsu Curry",
         "cuisine": "Japanese",
         "description": "Breaded and fried meat, typically chicken or pork, served with a rich and spicy curry sauce over rice.",
-        "image": "https://www.japanesecooking101.com/wp-content/uploads/2012/05/Katsu-Curry-Recipe-500x375.jpg",
+        "image": "https://japan.recipetineats.com/wp-content/uploads/2021/12/Katsu_Curry_7011bsq.jpg",
         "ingredients": "Chicken or pork cutlet, panko breadcrumbs, flour, eggs, onion, carrots, potatoes, curry powder, rice",
         "date_created": "2023-08-21",
         "cook_time": "1 hour"
