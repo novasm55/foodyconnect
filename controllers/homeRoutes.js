@@ -94,7 +94,6 @@ router.get("/profile", withAuth, async (req, res) => {
     });
 
     const user = userData.get({ plain: true });
-    console.log(user);
 
     res.render("profile", {
       ...user,
@@ -113,4 +112,22 @@ router.get("/login", (req, res) => {
 
   res.render("login");
 });
+
+router.get("/food/:id", async (req, res) => {
+  try {
+    const foodData = await Food.findByPk(req.params.id, {
+      include: [
+        {
+          model: Comment,
+        },
+      ],
+    });
+    const food = foodData.get({ plain: true });
+    res.json(food);
+  } catch (err) {
+    console.log(err);
+    res.status(500).json(err);
+  }
+});
+
 module.exports = router;

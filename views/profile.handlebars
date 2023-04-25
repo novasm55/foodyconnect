@@ -1,6 +1,6 @@
 <div class="row">
   <div class="col-auto">
-    <h2 class="welcome">{{name}}!</h2>
+    <h2 class="welcome">{{name}}</h2>
   </div>
 </div>
 
@@ -30,7 +30,7 @@
         <input class="form-input" type="text" id="post-desc" name="post-desc" />
       </div>
     </form>
-     <button id="upload_widget" class="cloudinary-button">Upload Picture</button>
+     <button id="upload_widget" class="btn btn-primary">Upload Picture</button>
      <button id='create' type="submit" class="btn btn-primary">Create</button>
   </div>
 
@@ -54,7 +54,7 @@
     <p>{{foods.ingredients}}</p>
     <p>{{foods.cook_time}}</p>
     <p>{{format_date foods.date_created}}</p>
-    <button class="btn btn-sm btn-danger" data-id="{{foods.id}}">DELETE</button>
+    <button id='delete-btn' class="btn" data-id="{{foods.id}}">Delete Post</button>
   </div>
 </div>
 {{/each}}

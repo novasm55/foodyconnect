@@ -8,8 +8,8 @@
 .col-md-6 {
   position: relative;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
 .col-auto {
@@ -17,11 +17,13 @@
   width: auto;
 }
 
-h2 {
+.welcome {
   font-size: 2rem;
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 0.5rem;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
 h3 {
@@ -96,7 +98,8 @@ label {
   border-color: #0062cc;
 }
 
-.cloudinary-button {
+.cloudinary-button,
+#delete-btn {
   display: inline-block;
   font-size: 1rem;
   font-weight: 400;
@@ -112,4 +115,9 @@ label {
   color: #212529;
   background-color: #fff;
   border-color: #e9ecef;
+}
+
+#delete-btn {
+  background-color: rgb(138, 19, 19);
+  color: white;
 }
