@@ -18,7 +18,8 @@ Whether you're a seasoned home cook or just starting your culinary journey, Food
 ## Installation
 
 * Follow the Heroku link provided: 
-
+https://tranquil-anchorage-26220.herokuapp.com/
+https://github.com/novasm55/foodyconnect
 * Sign up using your email, creating a username and password. 
 * No particular tools or software are required to run this website at this time. 
 
@@ -53,5 +54,5 @@ Foody Connect is a simple application that allows you to connect with different 
 
 ## Deployment
 
-Heroku link: 
-Github link: 
+Heroku link: https://tranquil-anchorage-26220.herokuapp.com/
+Github link: https://github.com/novasm55/foodyconnect
