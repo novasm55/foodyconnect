@@ -21,7 +21,6 @@ document.getElementById("upload_widget").addEventListener(
 );
 
 const newFormHandler = async (event) => {
-  console.log(2);
   event.preventDefault();
 
   const food_name = document.querySelector("#post-name").value.trim();
@@ -68,9 +67,11 @@ const delButtonHandler = async (event) => {
     if (response.ok) {
       document.location.replace("/profile");
     } else {
-      //console.log(error)
+      console.log(error);
       alert("Failed to delete project");
     }
   }
 };
-document.querySelector(".project-box").addEventListener("click", delButtonHandler );
+document
+  .querySelector("#delete-btn")
+  .addEventListener("click", delButtonHandler);
